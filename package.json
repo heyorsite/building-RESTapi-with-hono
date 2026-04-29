@@ -1,0 +1,22 @@
+{
+  "name": "hono-modular-rest-api-beginner",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio"
+  },
+  "dependencies": {
+    "@hono/node-server": "latest",
+    "@libsql/client": "latest",
+    "drizzle-orm": "latest",
+    "hono": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "drizzle-kit": "latest",
+    "tsx": "latest",
+    "typescript": "latest"
+  }
+}
